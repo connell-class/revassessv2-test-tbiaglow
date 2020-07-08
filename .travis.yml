@@ -4,6 +4,4 @@ git:
     depth: false
 script: ./ci.sh
 notifications:
-    email:
-    #enter your email address below
-        tbiaglow@gmail.com
+    email: tbiaglow@gmail.com
