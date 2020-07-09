@@ -4,9 +4,10 @@ public class SumOverArray {
 
 	public static int IterateAndSum(int[] arr) {
 		int sum = 0;
-	      //Advanced for loop
-	      for( int num : arr) {
-	          sum = sum + num;
+	      if (arr != null) {
+		      for( int num : arr) {
+		          sum += num;
+		      }
 	      }
 		return sum;
 	}
