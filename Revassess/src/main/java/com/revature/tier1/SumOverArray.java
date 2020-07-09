@@ -5,7 +5,7 @@ public class SumOverArray {
 	public static int IterateAndSum(int[] arr) {
 		int length = 0;
 		for (int i : arr) {
-			length += i;
+			length = length + i;
 		}
 		return length;
 	}
