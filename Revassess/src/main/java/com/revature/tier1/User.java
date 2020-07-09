@@ -1,10 +1,10 @@
 package com.revature.tier1;
 
 public class User {
-	String name = "Bob";
-	Integer id = 1124;
-	protected boolean isAuthorized = false;
-	void decrementId () {
-		this.id -= 1;
-	}
+	Integer id;
+	String firstName;
+	String lastName;
+	String userName;
+	String password;
+	String role;
 }
