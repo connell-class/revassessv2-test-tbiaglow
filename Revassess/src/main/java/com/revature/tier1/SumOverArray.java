@@ -4,8 +4,8 @@ public class SumOverArray {
 
 	public static int IterateAndSum(int[] arr) {
 		int length = 0;
-		for (int i : arr) {
-			length = length + i;
+		for (int num : arr) {
+			length += num;
 		}
 		return length;
 	}
