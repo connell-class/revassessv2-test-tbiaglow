@@ -3,10 +3,11 @@ package com.revature.tier1;
 public class SumOverArray {
 
 	public static int IterateAndSum(int[] arr) {
-		int length = 0;
-		for (int i = 0; i < arr.length; i++) {
-			length += arr[i];
-		}
-		return length;
+		int sum = 0;
+	      //Advanced for loop
+	      for( int num : arr) {
+	          sum = sum + num;
+	      }
+		return sum;
 	}
 }
