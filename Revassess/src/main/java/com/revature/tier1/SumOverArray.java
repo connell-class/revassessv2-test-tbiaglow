@@ -4,11 +4,11 @@ public class SumOverArray {
 
 	public static int IterateAndSum(int[] arr) {
 		int sum = 0;
-	      if (arr != null) {
-		      for( int num : arr) {
-		          sum += num;
-		      }
-	      }
+//	      if (arr != null) {
+//		      for( int num : arr) {
+//		          sum += num;
+//		      }
+//	      }
 		return sum;
 	}
 }
