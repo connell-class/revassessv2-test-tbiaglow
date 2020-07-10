@@ -9,6 +9,6 @@ public class SumOverArray {
 		          sum += num;
 		      }
 	      }
-		return 5;
+		return sum;
 	}
 }
