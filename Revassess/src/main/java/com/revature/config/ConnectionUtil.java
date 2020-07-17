@@ -19,11 +19,13 @@ public class ConnectionUtil {
 	private static ConnectionUtil cu;
 	
 	// add your jdbc url
-	public static final String URL = "jdbc:oracle:thin:@rev2004.crnv2jkczn6e.us-east-2.rds.amazonaws.com:1521:ORCL";
+//	public static final String URL = "jdbc:oracle:thin:@rev2004.crnv2jkczn6e.us-east-2.rds.amazonaws.com:1521:ORCL";
+	public static final String URL = "jdbc:oracle:thin:@revassesstest.c0ippggfggzg.us-east-2.rds.amazonaws.com:1521:ORCL";
 	// add your jdbc username
 	public static final String USERNAME = "admin";
 	// add your jdbc password
-	public static final String PASSWORD = "password";
+//	public static final String PASSWORD = "password";
+	public static final String PASSWORD = "Passw0rd";
 	// name of the created stored procedure in tier 3
 	public static final String TIER_3_PROCEDURE_NAME = "user_study_sets";
 	// name of the created sequence in tier 3
